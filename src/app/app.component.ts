@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-first-app';
+  todos = ['clean the kitchen', 'iron clothes', 'wash dishes'];
+  clickme (inputName: string) {
+    alert('My name is ' + inputName)
+  }
 }
